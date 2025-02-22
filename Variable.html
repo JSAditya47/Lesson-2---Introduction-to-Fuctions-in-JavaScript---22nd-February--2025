@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Passing Variables in a Function</h1>
+
+    <button onclick="myFunction(420, 420)">Click me Please</button>
+
+    <h3 id="demo"></h3>
+    <h3 id="demo1"></h3>
+
+    <script>
+      function myFunction(x, y) {
+        var sum = x + y;
+
+        document.getElementById("demo").innerHTML = "The Sum is " + sum;
+        document.getElementById("demo1").innerHTML = `The Sum is ${sum}`;
+      }
+    </script>
+  </body>
+</html>
