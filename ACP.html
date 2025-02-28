@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-color: rgb(255, 255, 255);
+        font-family: Cursive;
+        font-size: 25px;
+      }
+
+      h1 {
+        font-family: monospace;
+        text-shadow: 2px 2px 5px;
+      }
+    </style>
+  </head>
+  <body style="text-align: center">
+    <h1 style="color: rgb(255, 111, 0)">Simple Calculations</h1>
+
+    <script>
+      var result = function (a, b) {
+        return a + b;
+      };
+      var result2 = function (a, b) {
+        return a - b;
+      };
+      var result3 = function (a, b) {
+        return a * b;
+      };
+      var result4 = function (a, b) {
+        return a / b;
+      };
+
+      document.write(`The Addition Value : ${result(125, 5)} <br>`);
+      document.write(`The Subtraction Value : ${result2(125, 5)} <br>`);
+      document.write(`The Multiplication Value : ${result3(125, 5)} <br>`);
+      document.write(`The Division Value : ${result4(125, 5)} <br>`);
+    </script>
+  </body>
+</html>
